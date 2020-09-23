@@ -10,13 +10,13 @@ c = 0
 for i in data :
     c+=1
     url = i['Url']
-    # UrL = url[27:36]
+    UrL = url[27:36]
     
-    # if os.path.exists(UrL) :
-    #     print("Exists")
-    #     print(c)
+    if os.path.exists(UrL) :
+        print("Exists")
+        print(c)
     
-    # else:
+    else:
     time.sleep(3)   
     response = requests.get(url)
     Soup = BeautifulSoup(response.text , "html.parser")

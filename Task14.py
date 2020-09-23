@@ -24,19 +24,6 @@ for i in data :
         actor['name'] = Actor
         actor['frequent_co-actor'] = frequent_co_actor
         actors_id[imdb_id] = actor
-# pprint(actors_id)
-print(type(json.loads(actors_id)))
-# file = open('data_of_Task14.json' , 'r')
-# # # json.dump(actors_id , file , indent = 4)
-# data=json.load(file)
-# print(type(data))
 
 
-
-
-
-# # list__ = [0,5,5,6,5,5]
-# # for i in list__ :
-# #     print(i)
-# #     list__.append(i)
-    
+        
