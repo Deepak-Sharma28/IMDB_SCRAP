@@ -4,6 +4,7 @@ from pprint import pprint #imported preety print
 url = "https://www.imdb.com/india/top-rated-indian-movies/" #url of top 250 movies
 Soup = BeautifulSoup(response.text,"html.parser") #parsing the response via beautifulSoup
 
+# here is my comment
 
 import os.path  #imported os module  
 
