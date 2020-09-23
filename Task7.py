@@ -3,20 +3,17 @@ file = open('details2.json', 'r')
 data = json.load(file)
 
 Directors = []
-# Counter = 0
+Counter = 0
 for i in data :
-    # Counter += 1
-    # if Counter == 10 :
-        # break
+    Counter += 1
+    if Counter == 10 :
+        break
     Directors.append(i['Director'])
-# print(Directors) 
 Director = []
 for i in Directors :
     for j in i :
         if j not in Director :
             Director.append(j)
-print(Director)            
-# print(Director) 
 Dict = {}
 for i in Director :
     Counter = 0

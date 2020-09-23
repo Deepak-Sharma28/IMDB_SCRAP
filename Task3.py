@@ -3,7 +3,6 @@ from pprint import pprint
 file = open("data_of_task2.json","r+")
 data = json.load(file)
 
-# Decade_years = {1950 : [] , 1960 : [] , 1970 : [] , 1980 : [] , 1990 : [] , 2000 : [] , 2010 : [] , 2020 : []}
 dict_ = {}
 Decade = 1950
 while Decade<=2020 :
@@ -18,14 +17,6 @@ pprint(dict_)
 file = open("data_of_task3.json","w")
 data = json.dump( dict_ , file , indent = 4)
 
-# pprint(dict_)          
-# a=[]
-# for i in data:
-#     print(i)
-#     b=int(i)%10
-#     c=int(i)-b
-#     a.append(c)
-# print(list(set(a)))
     
     
     
